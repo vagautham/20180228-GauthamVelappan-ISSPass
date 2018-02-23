@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		40B8223C203FBE4D0013E2CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B8223B203FBE4D0013E2CB /* AppDelegate.swift */; };
-		40B8223E203FBE4D0013E2CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B8223D203FBE4D0013E2CB /* ViewController.swift */; };
 		40B82241203FBE4D0013E2CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B8223F203FBE4D0013E2CB /* Main.storyboard */; };
 		40B82243203FBE4D0013E2CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B82242203FBE4D0013E2CB /* Assets.xcassets */; };
 		40B82246203FBE4D0013E2CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B82244203FBE4D0013E2CB /* LaunchScreen.storyboard */; };
 		40B82251203FBE4E0013E2CB /* ISSP_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B82250203FBE4E0013E2CB /* ISSP_iOSTests.swift */; };
 		40B8225C203FBE4E0013E2CB /* ISSP_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B8225B203FBE4E0013E2CB /* ISSP_iOSUITests.swift */; };
+		40B8226A203FBE800013E2CB /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B82269203FBE800013E2CB /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		40B82238203FBE4D0013E2CB /* ISSP-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISSP-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B8223B203FBE4D0013E2CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40B8223D203FBE4D0013E2CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40B82240203FBE4D0013E2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40B82242203FBE4D0013E2CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40B82245203FBE4D0013E2CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		40B82257203FBE4E0013E2CB /* ISSP-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISSP-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B8225B203FBE4E0013E2CB /* ISSP_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSP_iOSUITests.swift; sourceTree = "<group>"; };
 		40B8225D203FBE4E0013E2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B82269203FBE800013E2CB /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				40B8223B203FBE4D0013E2CB /* AppDelegate.swift */,
-				40B8223D203FBE4D0013E2CB /* ViewController.swift */,
+				40B82269203FBE800013E2CB /* DashboardViewController.swift */,
 				40B8223F203FBE4D0013E2CB /* Main.storyboard */,
 				40B82242203FBE4D0013E2CB /* Assets.xcassets */,
 				40B82244203FBE4D0013E2CB /* LaunchScreen.storyboard */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B8223E203FBE4D0013E2CB /* ViewController.swift in Sources */,
 				40B8223C203FBE4D0013E2CB /* AppDelegate.swift in Sources */,
+				40B8226A203FBE800013E2CB /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
